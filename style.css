@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+}
+
+
+
+body{
+    height: 240vh;
+    width: 100%;
+    background-color: aqua;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color:antiquewhite;
+}
+.simply{
+    background-color: #FEF6EB;
+    border: 2px solid ;
+    height: 60px;
+    width: 90px;
+    color: burlywood;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#navbarNavDropdown{
+    margin-left: 30em;
+}
+.content{
+height: 200vh;
+width: 100%;
+background-color: blue;
+}
+.section1{
+    height: 50vh;
+    width: 100%;
+    background-color: green;
+    background-image: url(img/mountains-sq.jpg);
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+}
+.section1 button{
+    margin-top: 50px;
+}
+.section1 h1{
+   text-align: center;
+    color: #3D6153;
+    font-weight: bolder;
+}
+.section1 h2{
+    font-weight:lighter;
+    text-align: center;
+     color: #3D6153;
+ }
+ .section1 h4{
+background-color: #3D6153;
+color: aliceblue;
+ }
+
+.section2{
+height: 30vh;
+width: 100%;
+background-color: #EBF8FE;
+text-align: center;
+}
+.section2 button{
+    background-color: #C7ECFC;
+   height: 30vh;
+   width: 90%;
+   text-align: center;
+}
+.col img{
+    height: 30px;
+    width: 30px;
+}
+
+.section3{
+    height: 60vh;
+    width: 100%;
+background-color: pink;
+text-align: center;
+
+}
+.box-container {
+    border: 2px solid #FDCFDA;
+    margin-left: 50px; 
+    margin-top: 20px;
+    height: 50vh;
+    width: 80%;
+    position: absolute;
+}
+.box-container h3{
+    color: #A17C84;
+    text-align: center;
+}
+.dash{
+    height: 0;
+    width: 250px;
+    border: 2px solid #C7ECFC; 
+            max-width: 600px; 
+            margin: 20px auto;
+            text-align: center;
+}
+.box-container img{
+    height: 200px;
+    width: 70%;
+    text-align: center;
+}
+
+.section4{
+    height: 30vh;
+    width: 100%;
+background-color: #F4EDFD;
+}
+.col td{
+    height: 150px;
+    width: 100px;
+    display: inline-block;
+}
+.col2 img{
+height: 170px;
+width: 120px;
+}
+#Roro{
+    justify-content: center;
+
+}
+.section5{
+    height: 30vh;
+    width: 100%;
+background-color: #FBFCEA;
+text-align: center;
+}
+.section5 h4{
+    text-align: center;
+}
+.section5 button{
+    text-align: center;
+    color:#C0E7D4;
+    border: 2px solid #C0E7D4;
+    background-color: #FBFCEA;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+background-color: #f6e6f1;
+}
+.left-div{
+width: 400px;
+height: 180px;
+background-color: #f4d4e9;
+float: left;
+margin-left: 13em;
+
+}
+.right-div{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 180px;
+    background-color: #f4d4e9;
+    float: right;
+    margin-right: 13em;
+    display: flex;
+    gap: 10px;
+}
+.right-div table{
+    height: 150px;
+    width: 150px;
+}
